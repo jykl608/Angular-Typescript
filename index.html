@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
     <head>
-        <script data-require="angularjs@1.7.8" data-semver="1.7.8" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
         <!-- <link rel="stylesheet" href="style.css"></link> -->
-        <script src="script.js"></script>
+        <script type="text/javascript" src="scripts/app.module.js"></script>
+        <!-- <script type="text/javascript" src="scripts/phone-list/phone-list.module.js"></script>
+        <script type="text/javascript" src="scripts/phone-list/phone-list.component.js"></script> -->
+        <!-- <script type="text/javascript" src="scripts/phone-select-dropdown/phone-select-dropdown.module.js"></script> -->
+        <!-- <script type="text/javascript" src="scripts/phone-select-dropdown/phone-select-dropdown.component.js"></script> -->
+        <script type="text/javascript" src="scripts/phone-select-dropdown/index.js"></script>
     </head>
 
     <body>
-        <heros></heros>
+        <!-- <phone-list></phone-list> -->
+        <phone-select-dropdown></phone-select-dropdown>
     </body>
 </html>
